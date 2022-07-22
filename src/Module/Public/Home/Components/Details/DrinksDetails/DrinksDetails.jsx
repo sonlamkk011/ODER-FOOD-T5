@@ -11,7 +11,7 @@ const DrinksDetails = () => {
         <Navbar />
         <div id="drinks-details">
             <div className="container">
-            <div className="font">Đồ Uống Lạnh</div>
+            <div className="font">Đồ Uống</div>
 
                 <div className="row">
                 <div className="col-md-4">

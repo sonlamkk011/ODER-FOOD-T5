@@ -12,7 +12,7 @@ const PorridgeDetails = () => {
         <Navbar />
            <div id="porridge-details">
             <div className="container">
-            <div className="font">Các Món Cháo</div>
+            <div className="font">Cháo</div>
 
                 <div className="row">
                 <div className="col-md-4">

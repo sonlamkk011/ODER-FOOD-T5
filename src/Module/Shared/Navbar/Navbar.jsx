@@ -41,22 +41,22 @@ const Navbar = () => {
             Menu
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdown04">
-            <a className="dropdown-item" href="shop.html">
+            <a className="dropdown-item" href="rice-details">
               Cơm
             </a>
-            <a className="dropdown-item" href="wishlist.html">
+            <a className="dropdown-item" href="bread-details">
               Bánh Mì
             </a>
-            <a className="dropdown-item" href="product-single.html">
+            <a className="dropdown-item" href="noodles-details">
               Bún , Phở
             </a>
-            <a className="dropdown-item" href="cart.html">
+            <a className="dropdown-item" href="porridge-details">
               Cháo
             </a>
-            <a className="dropdown-item" href="checkout.html">
+            <a className="dropdown-item" href="snacks-details">
               Ăn Vặt
             </a>
-            <a className="dropdown-item" href="checkout.html">
+            <a className="dropdown-item" href="drinks-details">
               Đồ Uống
             </a>
           </div>

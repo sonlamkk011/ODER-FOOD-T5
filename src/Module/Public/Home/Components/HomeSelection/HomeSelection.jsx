@@ -33,7 +33,7 @@ const HomeSelection = () => {
                    
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="/porridge-details">
                         <img
                   src="https://d1sag4ddilekf6.azureedge.net/cuisine/40/icons/upload-photo-icon_f71f7805786348b694d2a9a886b85cee_1549034196325788582.jpeg"
                   loading="lazy"
@@ -52,55 +52,10 @@ const HomeSelection = () => {
                         </div>
 
 
-                    </div>
-                    
+                    </div>        
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
-                        <img
-                  src="https://d1sag4ddilekf6.azureedge.net/cuisine/29/icons/BubbleTea_be0ee7214fa04e99b8e1d5200c3cddd4_1547819077602874642.jpg"
-                  loading="lazy"
-                  style={{
-                    borderBottomLeftRadius: 10,
-                    borderBottomRightRadius: 10,
-                    borderTopLeftRadius: 10,
-                    borderTopRightRadius: 10,
-                    display: "block",
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-                Trà Sữa</a>
-
-                        </div>
-
-
-                    </div>
-                    <div className="col-md-4">
-                        <div className="item-food">
-                        <a className="name-item" href="/">
-                        <img
-                  src="https://d1sag4ddilekf6.azureedge.net/cuisine/135/icons/Pizza_32aed38d4c1d4dbcb2fe711f0aeb6e15_1547819221409327403.jpg"
-                  loading="lazy"
-                  style={{
-                    borderBottomLeftRadius: 10,
-                    borderBottomRightRadius: 10,
-                    borderTopLeftRadius: 10,
-                    borderTopRightRadius: 10,
-                    display: "block",
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-                Pizza</a>
-
-                        </div>
-
-
-                    </div>
-                    <div className="col-md-4">
-                        <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="bread-details">
                         <img
                   src="https://d1sag4ddilekf6.azureedge.net/cuisine/16/icons/upload-photo-icon_3408dc71ae96497c82a6f5fb35763840_1549033935837593141.jpeg"
                   loading="lazy"
@@ -122,7 +77,7 @@ const HomeSelection = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="snacks-details">
                         <img
                   src="https://d1sag4ddilekf6.azureedge.net/cuisine/157/icons/eb8ea703d1f84b218b79b0f860e99425_1562559054203677203.jpeg"
                   loading="lazy"
@@ -144,9 +99,9 @@ const HomeSelection = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="drinks-details">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CZLYT7VKLXKTRA/hero/dc46ae551bb443538dc4a70aafba3137_1658094753424690487.jpg"
+                  src="https://d1sag4ddilekf6.azureedge.net/collections/38/icons/upload-photo-icon_11130fe9f9154c09b507516072864902_1548777275151458249.jpeg"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -158,7 +113,7 @@ const HomeSelection = () => {
                     height: "100%",
                   }}
                 />
-              Cơm Văn Phòng</a>
+              Đồ Uống</a>
 
                         </div>
 
@@ -166,9 +121,9 @@ const HomeSelection = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="noodles-details">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C3KDHEMHC2XUEA/hero/0ce72152773c43938814e888c862ae60_1658094394570571432.jpg"
+                  src="https://d1sag4ddilekf6.azureedge.net/cuisine/83/icons/cedda467431a49bd88fb1fdf40a4c4a0_1562559607379193479.jpeg"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -180,7 +135,7 @@ const HomeSelection = () => {
                     height: "100%",
                   }}
                 />
-               Cơm Gà</a>
+               Bún, Phở</a>
 
                         </div>
 
@@ -188,7 +143,7 @@ const HomeSelection = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="item-food">
-                        <a className="name-item" href="/">
+                        <a className="name-item" href="rice-details">
                         <img
                   src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C2CETTMEVTKBDA/hero/bd27c078a11d466eb8cef130a41361a1_1604484164971715768.jpg"
                   loading="lazy"

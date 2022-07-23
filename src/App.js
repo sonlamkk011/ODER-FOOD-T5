@@ -3,12 +3,15 @@ import { BrowserRouter, Switch, Route, Redirect, Router } from "react-router-dom
 
 import Home from './Module/Public/Home/Home';
 import Cart from './Module/Shared/Navbar/Cart/Cart';
-import RiceDetails from './Module/Public/Home/Components/Details/RiceDetails/RiceDetails';
 import PorridgeDetails from './Module/Public/Home/Components/Details/PorridgeDetails/PorridgeDetails';
 import BreadDetails from './Module/Public/Home/Components/Details/BreadDetails/BreadDetails';
 import SnacksDetails from './Module/Public/Home/Components/Details/SnacksDetails/SnacksDetails';
 import DrinksDetails from './Module/Public/Home/Components/Details/DrinksDetails/DrinksDetails';
 import NoodlesDetails from './Module/Public/Home/Components/Details/NoodlesDetails/NoodlesDetails';
+import RiceDetails from './Module/Public/Details/RiceDetails/RiceDetails';
+import Contact from './Module/Public/Contact/Contact';
+import About from './Module/Public/About/About';
+import Blog from './Module/Public/Blog/Blog';
 
 function App() {
   return (
@@ -38,6 +41,15 @@ function App() {
     </Route>
     <Route path="/noodles-details" exact>
       <NoodlesDetails />
+    </Route>
+    <Route path="/contact" exact>
+      <Contact />
+    </Route>
+    <Route path="/about" exact>
+      <About />
+    </Route>
+    <Route path="/blog" exact>
+      <Blog />
     </Route>
 
   </Switch>

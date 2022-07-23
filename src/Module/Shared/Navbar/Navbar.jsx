@@ -1,8 +1,15 @@
+import "./Navbar.scss";
+
+
+
+
+
 
 
 const Navbar = () => {
     return(
         <>
+        <div id="navbar">
         <nav
   className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
   id="ftco-navbar"
@@ -40,6 +47,7 @@ const Navbar = () => {
           >
             Menu
           </a>
+          <div className="menu">
           <div className="dropdown-menu" aria-labelledby="dropdown04">
             <a className="dropdown-item" href="rice-details">
               Cơm
@@ -60,19 +68,20 @@ const Navbar = () => {
               Đồ Uống
             </a>
           </div>
+          </div>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">
+          <a href="about" className="nav-link">
             About
           </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">
+          <a href="blog" className="nav-link">
             Blog
           </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">
+          <a href="contact" className="nav-link">
             Contact
           </a>
         </li>
@@ -86,6 +95,7 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
+</div>
 
         </>
     )

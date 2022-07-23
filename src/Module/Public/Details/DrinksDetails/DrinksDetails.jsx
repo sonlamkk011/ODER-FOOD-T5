@@ -1,15 +1,16 @@
-import Footer from "../../../../../Shared/Footer/Footer";
-import Header from "../../../../../Shared/Header/Header";
-import Navbar from "../../../../../Shared/Navbar/Navbar";
+
 import Button from '@mui/material/Button';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./DrinksDetails.scss";
+import Header from '../../../Shared/Header/Header';
+import Navbar from '../../../Shared/Navbar/Navbar';
+import Footer from '../../../Shared/Footer/Footer';
 
 
 const DrinksDetails = () => {
     return(
         <>
-        <Header/>
+        <Header />
         <Navbar />
         <div id="drinks-details">
             <div className="container">

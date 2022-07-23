@@ -1,6 +1,6 @@
-import Footer from "../../../../../Shared/Footer/Footer";
-import Header from "../../../../../Shared/Header/Header";
-import Navbar from "../../../../../Shared/Navbar/Navbar";
+import Header from '../../../Shared/Header/Header';
+import Navbar from '../../../Shared/Navbar/Navbar';
+import Footer from '../../../Shared/Footer/Footer';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Button from '@mui/material/Button';
 import "./SnacksDetails.scss";

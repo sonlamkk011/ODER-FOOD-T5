@@ -1,14 +1,14 @@
-import Footer from "../../../../../Shared/Footer/Footer";
-import Header from "../../../../../Shared/Header/Header";
-import Navbar from "../../../../../Shared/Navbar/Navbar";
 import Button from '@mui/material/Button';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./BreadDetails.scss";
+import Header from '../../../Shared/Header/Header';
+import Navbar from '../../../Shared/Navbar/Navbar';
+import Footer from '../../../Shared/Footer/Footer';
 
 const BreadDetails = () => {
     return(
         <>
-        <Header />
+        <Header/>
         <Navbar />
              <div id="bread-details">
             <div className="container">

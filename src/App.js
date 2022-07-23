@@ -3,15 +3,17 @@ import { BrowserRouter, Switch, Route, Redirect, Router } from "react-router-dom
 
 import Home from './Module/Public/Home/Home';
 import Cart from './Module/Shared/Navbar/Cart/Cart';
-import PorridgeDetails from './Module/Public/Home/Components/Details/PorridgeDetails/PorridgeDetails';
-import BreadDetails from './Module/Public/Home/Components/Details/BreadDetails/BreadDetails';
-import SnacksDetails from './Module/Public/Home/Components/Details/SnacksDetails/SnacksDetails';
-import DrinksDetails from './Module/Public/Home/Components/Details/DrinksDetails/DrinksDetails';
-import NoodlesDetails from './Module/Public/Home/Components/Details/NoodlesDetails/NoodlesDetails';
 import RiceDetails from './Module/Public/Details/RiceDetails/RiceDetails';
+import DrinksDetails from './Module/Public/Details/DrinksDetails/DrinksDetails';
+import BreadDetails from './Module/Public/Details/BreadDetails/BreadDetails';
+import NoodlesDetails from './Module/Public/Details/NoodlesDetails/NoodlesDetails';
+import PorridgeDetails from './Module/Public/Details/PorridgeDetails/PorridgeDetails';
+import SnacksDetails from './Module/Public/Details/SnacksDetails/SnacksDetails';
+
 import Contact from './Module/Public/Contact/Contact';
 import About from './Module/Public/About/About';
 import Blog from './Module/Public/Blog/Blog';
+import TestHome from './Module/Public/Home/TestHome/TestHome';
 
 function App() {
   return (
@@ -50,6 +52,9 @@ function App() {
     </Route>
     <Route path="/blog" exact>
       <Blog />
+    </Route>
+    <Route path="/test" exact>
+      <TestHome />
     </Route>
 
   </Switch>

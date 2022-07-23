@@ -1,6 +1,6 @@
-import Footer from "../../../../../Shared/Footer/Footer";
-import Header from "../../../../../Shared/Header/Header";
-import Navbar from "../../../../../Shared/Navbar/Navbar";
+import Header from '../../../Shared/Header/Header';
+import Navbar from '../../../Shared/Navbar/Navbar';
+import Footer from '../../../Shared/Footer/Footer';
 import Button from '@mui/material/Button';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./PorridgeDetails.scss";

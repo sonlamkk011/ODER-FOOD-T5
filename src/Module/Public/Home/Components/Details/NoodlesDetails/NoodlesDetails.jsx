@@ -1,6 +1,8 @@
 import Footer from "../../../../../Shared/Footer/Footer";
 import Header from "../../../../../Shared/Header/Header";
 import Navbar from "../../../../../Shared/Navbar/Navbar";
+import Button from '@mui/material/Button';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./NoodlesDetails.scss";
 
 const NoodlesDetails = () => {
@@ -13,11 +15,10 @@ const NoodlesDetails = () => {
             <div className="font">Bún, Phở</div>
 
                 <div className="row">
-                <div className="col-md-4">
+                <div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C3CTWA5CTUVDC2/hero/46cdf79dde094cbf934abe55df5a23f1_1646575637945150781.png"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -29,15 +30,20 @@ const NoodlesDetails = () => {
                     height: "100%",
                   }}
                 />
-                Cháo Dinh Dưỡng
-                </a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
-<div className="col-md-4">
+
+</div>
+<div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C2JGVU2GR3THTJ/hero/01ba19d2020342129da12bd41ebfab3e_1614573661768396685.png"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -49,14 +55,21 @@ const NoodlesDetails = () => {
                     height: "100%",
                   }}
                 />
-                Cháo Lòng</a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
-<div className="col-md-4">
+
+</div>
+
+<div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C2CTVRJAAP3BET/hero/57f18cc5aac4496eb56a9f86b3deecfc_1658094899703922778.jpg"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -68,14 +81,20 @@ const NoodlesDetails = () => {
                     height: "100%",
                   }}
                 />
-                Cơm Gà </a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
-<div className="col-md-4">
+
+</div>
+<div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CZNZGRLZLJUEEA/hero/a5c851ba49a54ffd936c0b1315c68fb5_1637986280142753770.jpeg"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -85,16 +104,23 @@ const NoodlesDetails = () => {
                     display: "block",
                     width: "100%",
                     height: "100%",
+                    
                   }}
                 />
-                Cháo Sườn</a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
-<div className="col-md-4">
+
+</div>
+<div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C3J2BB5AV2BEJX/hero/001c05ea924e4327b7cde984efd8dcd2_1656886210267362092.jpg"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -104,16 +130,24 @@ const NoodlesDetails = () => {
                     display: "block",
                     width: "100%",
                     height: "100%",
+                    marginTop:50,
+
                   }}
                 />
-                Cháo Hàu</a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
-<div className="col-md-4">
+
+</div>
+<div className="col-sm-3">
                         <div className="item-food">
-                        <a className="name-item" href="/">
                         <img
-                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-C3LCJVAJC3MKRA/hero/a8e403c185ba45558b14a1d6fd915626_1655680497999223410.jpg"
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
                   loading="lazy"
                   style={{
                     borderBottomLeftRadius: 10,
@@ -123,11 +157,74 @@ const NoodlesDetails = () => {
                     display: "block",
                     width: "100%",
                     height: "100%",
+                    marginTop:50,
+
                   }}
                 />
-                Cháo Súp</a>
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
 </div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
 </div>
+
+</div>
+<div className="col-sm-3">
+                        <div className="item-food">
+                        <img
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
+                  loading="lazy"
+                  style={{
+                    borderBottomLeftRadius: 10,
+                    borderBottomRightRadius: 10,
+                    borderTopLeftRadius: 10,
+                    borderTopRightRadius: 10,
+                    display: "block",
+                    width: "100%",
+                    height: "100%",
+                    marginTop:50,
+
+                  }}
+                />
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
+</div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
+</div>
+
+</div>
+<div className="col-sm-3">
+                        <div className="item-food">
+                        <img
+                  src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/5-CYNKKEXBDB5ERX/hero/fee3d8721f234ac5bbb1eebec7bee76b_1631597965526896988.png"
+                  loading="lazy"
+                  style={{
+                    borderBottomLeftRadius: 10,
+                    borderBottomRightRadius: 10,
+                    borderTopLeftRadius: 10,
+                    borderTopRightRadius: 10,
+                    display: "block",
+                    width: "100%",
+                    height: "100%",
+                    marginTop:50,
+                  }}
+                />
+                
+                <h1 className="name-item" >Cơm Tấm Sườn Nướng</h1>
+
+</div>
+<div>
+<Button className="icon" variant="contained"><ShoppingCartIcon/>Add to cart</Button>
+
+</div>
+
+</div>
+
 
 
 

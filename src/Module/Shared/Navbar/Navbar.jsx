@@ -1,4 +1,5 @@
 import "./Navbar.scss";
+import FastfoodIcon from '@mui/icons-material/Fastfood';
 
 
 
@@ -16,7 +17,7 @@ const Navbar = () => {
 >
   <div className="container">
     <a className="navbar-brand" href="/">
-      Oder Food
+      Oder<FastfoodIcon /> Food
     </a>
     <button
       className="navbar-toggler"
